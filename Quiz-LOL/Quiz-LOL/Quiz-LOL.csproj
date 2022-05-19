@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9BCFE02-9545-4C4E-B6D3-D461D5730155}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Quiz_LOL</RootNamespace>
+    <AssemblyName>Quiz-LOL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.Designer.cs">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuest1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuest1.Designer.cs">
+      <DependentUpon>frmQuest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuest10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuest10.Designer.cs">
+      <DependentUpon>frmQuest10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuest2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuest2.Designer.cs">
+      <DependentUpon>frmQuest2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuest3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuest3.Designer.cs">
+      <DependentUpon>frmQuest3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuest4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuest4.Designer.cs">
+      <DependentUpon>frmQuest4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuest5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuest5.Designer.cs">
+      <DependentUpon>frmQuest5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuest6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuest6.Designer.cs">
+      <DependentUpon>frmQuest6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuest7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuest7.Designer.cs">
+      <DependentUpon>frmQuest7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuest8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuest8.Designer.cs">
+      <DependentUpon>frmQuest8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuest9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuest9.Designer.cs">
+      <DependentUpon>frmQuest9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResposta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResposta.Designer.cs">
+      <DependentUpon>frmResposta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuest1.resx">
+      <DependentUpon>frmQuest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuest10.resx">
+      <DependentUpon>frmQuest10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuest2.resx">
+      <DependentUpon>frmQuest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuest3.resx">
+      <DependentUpon>frmQuest3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuest4.resx">
+      <DependentUpon>frmQuest4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuest5.resx">
+      <DependentUpon>frmQuest5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuest6.resx">
+      <DependentUpon>frmQuest6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuest7.resx">
+      <DependentUpon>frmQuest7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuest8.resx">
+      <DependentUpon>frmQuest8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuest9.resx">
+      <DependentUpon>frmQuest9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResposta.resx">
+      <DependentUpon>frmResposta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summoners-rift.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Caitlyn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sett.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Evelynn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lulu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sett-skin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kayn-skin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinhalol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mid-lane.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
